@@ -1,0 +1,629 @@
+# Copyright (C) 2015 Claudio Sanches
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Boleto 1.5.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/plugins/woocommerce-domination/\n"
+"POT-Creation-Date: 2015-09-05 03:47:48+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 0.5.3\n"
+
+#: includes/class-wc-boleto-admin.php:34
+#: includes/class-wc-boleto-gateway.php:20
+#: includes/class-wc-boleto-gateway.php:88
+msgid "Banking Ticket"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:75
+msgid "Expiration date:"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:76
+msgid "URL:"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:76
+msgid "View boleto"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:80
+msgid "Set new expiration data:"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:82
+msgid "Configuring a new expiration date the boleto is resent to the client."
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:85
+msgid "This purchase was not paid with Ticket."
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:125
+msgid "Expiration date updated to: %s"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:146
+msgid "New expiration date for the boleto your order %s"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:153
+msgid "The expiration date of your boleto was updated to: %s"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:154
+#: includes/class-wc-boleto-gateway.php:689
+#: includes/class-wc-boleto-gateway.php:744 woocommerce-boleto.php:198
+msgid "Pay the Ticket &rarr;"
+msgstr ""
+
+#: includes/class-wc-boleto-admin.php:157
+msgid "New expiration date for your boleto"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:21
+msgid "Enables payments via Banking Ticket."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:78
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:80
+msgid "Enable Banking Ticket"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:84
+msgid "Title"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:86
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:91
+msgid "Description"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:93
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:95
+msgid "Pay with Banking Ticket"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:98
+msgid "Ticket Details"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:102
+msgid "Deadline to pay the Ticket"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:104
+msgid "Number of days to pay."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:109
+msgid "Ticket Logo"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:111
+msgid "Logo with 147px x 46px."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:116
+msgid "Bank Details"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:120
+msgid "Bank"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:123
+msgid "Choose the bank for Ticket."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:127
+msgid "Banco do Brasil"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:128
+msgid "Bradesco"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:129
+msgid "Caixa Economica Federal - SR (SICOB)"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:130
+msgid "Caixa Economica Federal - SIGCB"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:131
+msgid "Caixa Economica Federal - SINCO"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:132
+msgid "HSBC"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:133
+msgid "Itau"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:134
+msgid "Nossa Caixa"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:135
+msgid "Real"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:136
+msgid "Santander"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:137
+msgid "Unibanco"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:138
+msgid "Bancoob"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:145
+msgid "Optional Data"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:149
+msgid "Quantity"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:153
+msgid "Unitary value"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:157
+msgid "Acceptance"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:161
+#: includes/class-wc-boleto-gateway.php:170
+msgid "Currency"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:166
+msgid "Kind of document"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:175
+msgid "Demonstrative"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:179
+#: includes/class-wc-boleto-gateway.php:204
+msgid "Line 1"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:181
+#: includes/class-wc-boleto-gateway.php:188
+#: includes/class-wc-boleto-gateway.php:195
+msgid "Use [number] to show the Order ID."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:183
+msgid "Payment for purchase in %s"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:186
+#: includes/class-wc-boleto-gateway.php:209
+msgid "Line 2"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:190
+msgid "Payment referred to the order [number]"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:193
+#: includes/class-wc-boleto-gateway.php:214
+msgid "Line 3"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:200
+msgid "Instructions"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:206
+msgid "- Mr. Cash, charge a fine of 2% after maturity"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:211
+msgid "- Receive up to 10 days past due"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:216
+msgid "- For questions please contact us: %s"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:219
+msgid "Line 4"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:224
+msgid "Shop Details"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:228
+msgid "CPF/CNPJ"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:231
+msgid "Document number."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:234
+msgid "Address"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:237
+msgid "Shop Address."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:240
+msgid "City/State"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:243
+msgid "Example <code>S&atilde;o Paulo/SP</code>."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:246
+msgid "Corporate Name"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:264
+#: includes/class-wc-boleto-gateway.php:311
+#: includes/class-wc-boleto-gateway.php:334
+#: includes/class-wc-boleto-gateway.php:376
+#: includes/class-wc-boleto-gateway.php:419
+#: includes/class-wc-boleto-gateway.php:452
+#: includes/class-wc-boleto-gateway.php:507
+#: includes/class-wc-boleto-gateway.php:538
+#: includes/class-wc-boleto-gateway.php:570
+#: includes/class-wc-boleto-gateway.php:612
+msgid "Agency"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:266
+#: includes/class-wc-boleto-gateway.php:313
+#: includes/class-wc-boleto-gateway.php:336
+#: includes/class-wc-boleto-gateway.php:378
+#: includes/class-wc-boleto-gateway.php:421
+#: includes/class-wc-boleto-gateway.php:454
+#: includes/class-wc-boleto-gateway.php:540
+#: includes/class-wc-boleto-gateway.php:572
+#: includes/class-wc-boleto-gateway.php:614
+msgid "Agency number without digit."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:269
+#: includes/class-wc-boleto-gateway.php:316
+#: includes/class-wc-boleto-gateway.php:343
+#: includes/class-wc-boleto-gateway.php:381
+#: includes/class-wc-boleto-gateway.php:424
+#: includes/class-wc-boleto-gateway.php:457
+#: includes/class-wc-boleto-gateway.php:512
+#: includes/class-wc-boleto-gateway.php:575
+#: includes/class-wc-boleto-gateway.php:617
+msgid "Account"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:271
+#: includes/class-wc-boleto-gateway.php:318
+#: includes/class-wc-boleto-gateway.php:345
+#: includes/class-wc-boleto-gateway.php:383
+#: includes/class-wc-boleto-gateway.php:426
+#: includes/class-wc-boleto-gateway.php:459
+#: includes/class-wc-boleto-gateway.php:514
+#: includes/class-wc-boleto-gateway.php:577
+#: includes/class-wc-boleto-gateway.php:619
+msgid "Account number without digit."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:274
+#: includes/class-wc-boleto-gateway.php:321
+msgid "Agreement number"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:276
+#: includes/class-wc-boleto-gateway.php:323
+msgid "Agreements with 6, 7 or 8 digits."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:279
+msgid "Contract number"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:283
+#: includes/class-wc-boleto-gateway.php:326
+#: includes/class-wc-boleto-gateway.php:361
+#: includes/class-wc-boleto-gateway.php:399
+#: includes/class-wc-boleto-gateway.php:438
+#: includes/class-wc-boleto-gateway.php:475
+#: includes/class-wc-boleto-gateway.php:494
+#: includes/class-wc-boleto-gateway.php:521
+#: includes/class-wc-boleto-gateway.php:552
+#: includes/class-wc-boleto-gateway.php:580
+#: includes/class-wc-boleto-gateway.php:598
+#: includes/class-wc-boleto-gateway.php:630
+msgid "Wallet code"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:287
+msgid "Wallet variation (optional)"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:289
+msgid "Wallet variation with dash."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:292
+msgid "Agreement format"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:296
+msgid "Agreement with 6 digits"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:297
+msgid "Agreement with 7 dígitos"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:298
+msgid "Agreement with 8 dígitos"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:302
+msgid "Our number formatting"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:304
+msgid ""
+"Used only for agreement with 6 digits (enter 1 for Our Number is up to 5 "
+"digits or 2 for option up to 17 digits)."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:339
+msgid "Agency digit"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:348
+#: includes/class-wc-boleto-gateway.php:386
+#: includes/class-wc-boleto-gateway.php:429
+#: includes/class-wc-boleto-gateway.php:462
+#: includes/class-wc-boleto-gateway.php:517
+#: includes/class-wc-boleto-gateway.php:622
+msgid "Account digit"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:352
+#: includes/class-wc-boleto-gateway.php:390
+#: includes/class-wc-boleto-gateway.php:433
+#: includes/class-wc-boleto-gateway.php:466
+#: includes/class-wc-boleto-gateway.php:543
+msgid "Transferor account"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:354
+msgid "Transferor account without digit (only numbers)."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:357
+#: includes/class-wc-boleto-gateway.php:395
+#: includes/class-wc-boleto-gateway.php:471
+#: includes/class-wc-boleto-gateway.php:548
+msgid "Transferor account digit"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:392
+#: includes/class-wc-boleto-gateway.php:468
+msgid "Transferor account without digit, use only numbers"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:401
+#: includes/class-wc-boleto-gateway.php:440
+#: includes/class-wc-boleto-gateway.php:477
+msgid "Confirm this information with your manager."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:404
+#: includes/class-wc-boleto-gateway.php:443
+#: includes/class-wc-boleto-gateway.php:480
+msgid "Without registry"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:405
+#: includes/class-wc-boleto-gateway.php:444
+#: includes/class-wc-boleto-gateway.php:481
+msgid "With registry"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:409
+msgid "Beginning of the Our Number"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:411
+msgid ""
+"Use <code>80, 81 or 82</code> for <strong>Without registry</strong> or "
+"<code>90</code> for <strong>With registry</strong>. Confirm this "
+"information with your manager."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:435
+msgid "Transferor account with 6 digits, use only numbers."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:489
+msgid "Transferor code"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:491
+msgid "Transferor code with only 7 digits."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:496
+msgid "Accepts only CNR."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:509
+#: includes/class-wc-boleto-gateway.php:595
+msgid "Agency number."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:545
+msgid "Transferor account without digit and with only 6 numbers."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:556
+msgid "Simple Billing (1)"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:557
+msgid "Direct Billing (5)"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:561
+msgid "Account modality"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:563
+msgid "Account modality with two positions (example: 04)."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:588
+#: includes/class-wc-boleto-gateway.php:626
+msgid "Customer code"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:590
+msgid "Customer code (PSK) with only 7 digits."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:593
+msgid "Sale point (Agency)"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:600
+msgid "Simple collection - Without registration."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:603
+msgid "Wallet description"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:655
+msgid "Awaiting boleto payment"
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:691
+#: includes/class-wc-boleto-gateway.php:738
+msgid "%sAttention!%s You will not get the ticket by Correios."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:692
+#: includes/class-wc-boleto-gateway.php:739 woocommerce-boleto.php:201
+msgid ""
+"Please click the following button and pay the Ticket in your Internet "
+"Banking."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:693
+#: includes/class-wc-boleto-gateway.php:740 woocommerce-boleto.php:202
+msgid "If you prefer, print and pay at any bank branch or lottery retailer."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:697
+#: includes/class-wc-boleto-gateway.php:746
+msgid "Validity of the Ticket: %s."
+msgstr ""
+
+#: includes/class-wc-boleto-gateway.php:734
+msgid "Payment"
+msgstr ""
+
+#: includes/views/html-admin-page.php:27
+msgid ""
+"Help us keep the %s plugin free making a %s or rate %s on %s. Thank you in "
+"advance!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Boleto"
+msgstr ""
+
+#: includes/views/html-admin-page.php:27
+msgid "donation"
+msgstr ""
+
+#: includes/views/html-admin-page.php:27
+msgid "WordPress.org"
+msgstr ""
+
+#: includes/views/html-boleto.php:95
+msgid "CPF:"
+msgstr ""
+
+#: includes/views/html-boleto.php:99
+msgid "CNPJ:"
+msgstr ""
+
+#: includes/views/html-notice-currency-not-supported.php:13
+#: includes/views/html-notice-woocommerce-missing.php:20
+msgid "WooCommerce Boleto Disabled"
+msgstr ""
+
+#: includes/views/html-notice-currency-not-supported.php:13
+msgid "Currency <code>%s</code> is not supported. Works only with Brazilian Real."
+msgstr ""
+
+#: includes/views/html-notice-woocommerce-missing.php:20
+msgid "This plugin depends on the last version of %s to work!"
+msgstr ""
+
+#: includes/views/html-notice-woocommerce-missing.php:20
+msgid "WooCommerce"
+msgstr ""
+
+#: woocommerce-boleto.php:200
+msgid "%sAttention!%s Not registered the payment the docket for this product yet."
+msgstr ""
+
+#: woocommerce-boleto.php:203
+msgid "Ignore this message if the payment has already been made​​."
+msgstr ""
+
+#: woocommerce-boleto.php:229
+msgid "Settings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/claudiosmweb/woocommerce-boleto"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "WooCommerce Boleto is a brazilian payment gateway for WooCommerce"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Claudio Sanches"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://claudiosmweb.com"
+msgstr ""

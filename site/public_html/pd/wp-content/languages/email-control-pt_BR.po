@@ -1,0 +1,1084 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Email Customizer v2.18\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-09-17 22:04-0300\n"
+"Last-Translator: calyx <hello@calyxagency.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ email-control
+#. translators: plugin header field 'Author'
+#: ec-email-control.php:0
+msgid "cxThemes"
+msgstr ""
+
+# @ email-control
+#. translators: plugin header field 'AuthorURI'
+#: ec-email-control.php:0
+msgid "http://codecanyon.net/user/cxThemes"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:376 ec-email-control.php:402 ec-email-control.php:455
+#: ec-email-control.php:525
+msgid "You must be logged in"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:564 pages/ec-admin-page.php:104
+msgid "Choose which email to preview or send."
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:569
+msgid "Emails"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:607
+msgid "Preview the email selected above."
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:607
+msgid "Preview Email"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:608
+msgid "Send the email selected above to this customer's billing address email. Will default to 'New Order' email if nothing is selected."
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:608
+msgid "Send Email"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:716 ec-email-control.php:725
+msgid "Preview and test emails as they will appear in mail clients when received."
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:1101 ec-email-control.php:1102
+msgid "Template IDs cannot exceed 20 characters in length"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:205 ec-template-supreme.php:205
+msgid "Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:213 ec-template-supreme.php:213
+msgid "Appearance"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:221 ec-template-supreme.php:221
+msgid "Header"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:229 ec-template-supreme.php:229
+msgid "Links"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:237 ec-template-supreme.php:237
+msgid "Section Headings"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:245 ec-template-supreme.php:245
+msgid "Order Items Table"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:253 ec-template-supreme.php:253
+msgid "Footer"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:275 ec-template-deluxe.php:300
+#: ec-template-deluxe.php:325 ec-template-deluxe.php:397
+#: ec-template-deluxe.php:423 ec-template-deluxe.php:449
+#: ec-template-supreme.php:275 ec-template-supreme.php:300
+#: ec-template-supreme.php:325 ec-template-supreme.php:397
+#: ec-template-supreme.php:423 ec-template-supreme.php:449
+msgid "Heading"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:278 ec-template-supreme.php:278
+msgid "New order received!"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:286 ec-template-deluxe.php:311
+#: ec-template-deluxe.php:336 ec-template-deluxe.php:408
+#: ec-template-deluxe.php:434 ec-template-deluxe.php:460
+#: ec-template-supreme.php:286 ec-template-supreme.php:311
+#: ec-template-supreme.php:336 ec-template-supreme.php:408
+#: ec-template-supreme.php:434 ec-template-supreme.php:460
+msgid "Main Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:303 ec-template-supreme.php:303
+msgid "Your order is being processed"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:328 ec-template-supreme.php:328
+msgid "Your order is complete"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:350 ec-template-supreme.php:350
+msgid "Heading (payment pending)"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:361 ec-template-deluxe.php:383
+#: ec-template-supreme.php:361 ec-template-supreme.php:383
+msgid "Textarea"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:364 ec-template-supreme.php:364
+msgid ""
+"Thanks for your order on [ec_site_link].\n"
+"\n"
+"To pay for this order please use the following link: [ec_pay_link]"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:372 ec-template-supreme.php:372
+msgid "Heading (payment complete)"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:411 ec-template-supreme.php:411
+msgid "[ec_customer_note]"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:426 ec-template-supreme.php:426
+msgid "Password Reset"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:437 ec-template-supreme.php:437
+msgid ""
+"Someone requested that the password be reset for the following account:\n"
+"[ec_user_login]\n"
+"\n"
+"If this was a mistake, just ignore this email and nothing will happen.\n"
+"\n"
+"To reset your password, visit the following address:\n"
+"[ec_reset_password_link]"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:452 ec-template-supreme.php:452
+msgid "Your account has been created"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:463 ec-template-supreme.php:463
+msgid ""
+"Thanks for creating an account on [ec_site_name].\n"
+"Your username is: [ec_user_login].\n"
+"\n"
+"You can access your account area to view your orders and change your password here: [ec_account_link]"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:470 ec-template-supreme.php:470
+msgid "Password Regenerated Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:473 ec-template-supreme.php:473
+msgid "Your password has been automatically generated: [ec_user_password]"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:500 ec-template-supreme.php:500
+msgid "Email Width"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:503
+msgid "700"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:512 ec-template-deluxe.php:1086
+#: ec-template-supreme.php:512 ec-template-supreme.php:1086
+msgid "Border Radius"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:515 ec-template-supreme.php:515
+msgid "5"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:524 ec-template-supreme.php:524
+msgid "Header Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:527
+msgid "#e9e8e6"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:548 ec-template-supreme.php:548
+msgid "Page Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:551 ec-template-supreme.php:551
+msgid "#ffffff"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:560 ec-template-deluxe.php:1098
+#: ec-template-supreme.php:560 ec-template-supreme.php:1098
+msgid "Background Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:563
+msgid "#dcd8d4"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:572 ec-template-supreme.php:572
+msgid "Text Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:575
+msgid "#232323"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:584 ec-template-supreme.php:584
+msgid "Text Accent Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:587
+msgid "#988255"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:596 ec-template-supreme.php:596
+msgid "Main Heading size"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:599 ec-template-supreme.php:599
+msgid "22"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:608 ec-template-supreme.php:608
+msgid "Text Line Height"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:611 ec-template-supreme.php:611
+msgid "1.3"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:628 ec-template-supreme.php:628
+msgid "Logo Position"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:635
+msgid "center"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:644 ec-template-supreme.php:644
+msgid "Logo"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:648 ec-template-deluxe.php:702
+#: ec-template-deluxe.php:750 ec-template-deluxe.php:798
+#: ec-template-deluxe.php:846 ec-template-deluxe.php:894
+#: ec-template-deluxe.php:940 ec-template-deluxe.php:1122
+#: ec-template-supreme.php:648 ec-template-supreme.php:702
+#: ec-template-supreme.php:750 ec-template-supreme.php:798
+#: ec-template-supreme.php:846 ec-template-supreme.php:894
+#: ec-template-supreme.php:940 ec-template-supreme.php:1122
+msgid "Enter a URL or upload an image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:664 ec-template-supreme.php:664
+msgid "Link 1"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:674 ec-template-supreme.php:674
+msgid "Link 1 Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:686 ec-template-supreme.php:686
+msgid "Link 1 URL"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:698 ec-template-supreme.php:698
+msgid "Link 1 Image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:712 ec-template-supreme.php:712
+msgid "Link 2"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:722 ec-template-supreme.php:722
+msgid "Link 2 Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:734 ec-template-supreme.php:734
+msgid "Link 2 URL"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:746 ec-template-supreme.php:746
+msgid "Link 2 Image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:760 ec-template-supreme.php:760
+msgid "Link 3"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:770 ec-template-supreme.php:770
+msgid "Link 3 Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:782 ec-template-supreme.php:782
+msgid "Link 3 URL"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:794 ec-template-supreme.php:794
+msgid "Link 3 Image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:808 ec-template-supreme.php:808
+msgid "Link 4"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:818 ec-template-supreme.php:818
+msgid "Link 4 Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:830 ec-template-supreme.php:830
+msgid "Link 4 URL"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:842 ec-template-supreme.php:842
+msgid "Link 4 Image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:856 ec-template-supreme.php:856
+msgid "Link 5"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:866 ec-template-supreme.php:866
+msgid "Link 5 Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:878 ec-template-supreme.php:878
+msgid "Link 5 URL"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:890 ec-template-supreme.php:890
+msgid "Link 5 Image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:902 ec-template-supreme.php:902
+msgid "Link 6"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:912 ec-template-supreme.php:912
+msgid "Link 6 Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:924 ec-template-supreme.php:924
+msgid "Link 6 URL"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:936 ec-template-supreme.php:936
+msgid "Link 6 Image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:957 ec-template-supreme.php:957
+msgid "Font Size"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:960 ec-template-supreme.php:960
+msgid "14"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:969 ec-template-supreme.php:969
+msgid "Line Width"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:972 ec-template-deluxe.php:1077
+#: ec-template-supreme.php:1077
+msgid "2"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:981 ec-template-supreme.php:981
+msgid "Line Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:984
+msgid "#282828"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1002 ec-template-supreme.php:1002
+msgid "Divider Style"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1011 ec-template-supreme.php:1011
+msgid "dotted"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1020 ec-template-supreme.php:1020
+msgid "Divider Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1023 ec-template-deluxe.php:1065
+#: ec-template-supreme.php:1023 ec-template-supreme.php:1065
+msgid "#c9c9c9"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1032 ec-template-supreme.php:1032
+msgid "Divider Width"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1035 ec-template-supreme.php:972
+#: ec-template-supreme.php:1035
+msgid "1"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1044 ec-template-supreme.php:1044
+msgid "Table Border Style"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1053 ec-template-supreme.php:1053
+msgid "none"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1062 ec-template-supreme.php:1062
+msgid "Border Color"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1074 ec-template-supreme.php:1074
+msgid "Border Width"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1089 ec-template-supreme.php:1089
+msgid "3"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1101 ec-template-supreme.php:1101
+msgid "#000000"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1118 ec-template-supreme.php:1118
+msgid "Footer Left Image"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:1129 ec-template-supreme.php:1129
+msgid "Footer Text"
+msgstr ""
+
+# @ email-control
+#: ec-template-supreme.php:503
+msgid "800"
+msgstr ""
+
+# @ email-control
+#: ec-template-supreme.php:527
+msgid "#fbda1c"
+msgstr ""
+
+# @ email-control
+#: ec-template-supreme.php:563
+msgid "#e8e8e8"
+msgstr ""
+
+# @ email-control
+#: ec-template-supreme.php:575
+msgid "#666666"
+msgstr ""
+
+# @ email-control
+#: ec-template-supreme.php:587
+msgid "#ad3400"
+msgstr ""
+
+# @ email-control
+#: ec-template-supreme.php:635
+msgid "left"
+msgstr ""
+
+# @ email-control
+#: ec-template-supreme.php:984
+msgid "#c6c6c6"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:153 includes/class-ec-settings.php:209
+#: includes/class-ec-settings.php:264 includes/class-ec-settings.php:332
+msgid "Reset to - "
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:486
+msgid "Hard Crop?"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:511
+msgid "Select a page&hellip;"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:539
+msgid "Choose a country&hellip;"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:568
+msgid "Choose countries&hellip;"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:574
+msgid "Select all"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:574
+msgid "Select none"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:1319
+msgid "Click here to reset your password"
+msgstr ""
+
+# @ email-control
+#: includes/class-ec-settings.php:1397
+msgid "Pay now"
+msgstr ""
+
+# @ email-control
+#: includes/toolbar-removal/wp-toolbar-removal.php:17
+msgid "This Plugin Requires WordPress 3.1+ or Greater: Activation Stopped!"
+msgstr ""
+
+# @ email-control
+#: includes/toolbar-removal/wp-toolbar-removal.php:101
+msgid "Network Admin"
+msgstr ""
+
+# @ email-control
+#: includes/toolbar-removal/wp-toolbar-removal.php:105
+msgid "Site Admin"
+msgstr ""
+
+# @ email-control
+#: includes/toolbar-removal/wp-toolbar-removal.php:109
+msgid "Log Out"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:76
+msgid "Close"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:86
+msgid "Back"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:104
+msgid "Email to show"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:143
+msgid "Template to show"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:143
+msgid "Edit the email."
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:171
+msgid "Don't Use"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:172
+msgid "Use"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:189
+msgid "Customize Template"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:189
+msgid "Customize the email that you are showing."
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:213
+msgid "Order to show"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:213
+msgid "Choose which order to use to populate the email template preview."
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:264
+msgid "Show Header Info"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:264
+msgid "Display the email header information."
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:297
+msgid "Send a Test"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:297
+msgid "Send a test email to any address. Use a comma separated list to send to multiple addresses"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:387
+msgid "Copy & Paste any of these [shortcodes] to use dynamic text in your text."
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:3
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:109
+msgid "Header Info"
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:109
+msgid "The header infomration that will be sent with the current Template. This can be changed in WooCommerce Settings > Emails, or simply click Edit next to the relevant field to be taken there."
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:117
+msgid "Subject"
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:122 pages/ec-template-page.php:133
+#: pages/ec-template-page.php:144
+msgid "Edit"
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:128
+msgid "From Email"
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:139
+msgid "From Name"
+msgstr ""
+
+# @ email-control
+#: pages/ec-template-page.php:150
+msgid "To Email"
+msgstr ""
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:38
+#: templates/emails/admin-new-order-supreme.php:38
+#: templates/emails/customer-completed-order-deluxe.php:40
+#: templates/emails/customer-completed-order-supreme.php:40
+#: templates/emails/customer-invoice-deluxe.php:69
+#: templates/emails/customer-invoice-supreme.php:69
+#: templates/emails/customer-note-deluxe.php:40
+#: templates/emails/customer-note-supreme.php:40
+#: templates/emails/customer-processing-order-deluxe.php:40
+#: templates/emails/customer-processing-order-supreme.php:39
+msgid "Order Details"
+msgstr "Detalhes do Pedido"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:44
+#: templates/emails/admin-new-order-supreme.php:44
+#: templates/emails/customer-completed-order-deluxe.php:46
+#: templates/emails/customer-completed-order-supreme.php:46
+#: templates/emails/customer-invoice-deluxe.php:75
+#: templates/emails/customer-invoice-supreme.php:75
+#: templates/emails/customer-note-deluxe.php:46
+#: templates/emails/customer-note-supreme.php:46
+#: templates/emails/customer-processing-order-deluxe.php:46
+#: templates/emails/customer-processing-order-supreme.php:45
+msgid "Order Number:"
+msgstr "Número do Pedido:"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:50
+#: templates/emails/admin-new-order-supreme.php:50
+#: templates/emails/customer-completed-order-deluxe.php:52
+#: templates/emails/customer-completed-order-supreme.php:52
+#: templates/emails/customer-invoice-deluxe.php:81
+#: templates/emails/customer-invoice-supreme.php:81
+#: templates/emails/customer-note-deluxe.php:52
+#: templates/emails/customer-note-supreme.php:52
+#: templates/emails/customer-processing-order-deluxe.php:52
+#: templates/emails/customer-processing-order-supreme.php:51
+msgid "Order Date:"
+msgstr "Data do Pedido:"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:60
+#: templates/emails/admin-new-order-supreme.php:60
+#: templates/emails/customer-completed-order-deluxe.php:62
+#: templates/emails/customer-completed-order-supreme.php:62
+#: templates/emails/customer-invoice-deluxe.php:91
+#: templates/emails/customer-invoice-supreme.php:91
+#: templates/emails/customer-note-deluxe.php:62
+#: templates/emails/customer-note-supreme.php:62
+#: templates/emails/customer-processing-order-deluxe.php:62
+#: templates/emails/customer-processing-order-supreme.php:61
+msgid "Product"
+msgstr "Produto"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:61
+#: templates/emails/admin-new-order-supreme.php:61
+#: templates/emails/customer-completed-order-deluxe.php:63
+#: templates/emails/customer-completed-order-supreme.php:63
+#: templates/emails/customer-invoice-deluxe.php:92
+#: templates/emails/customer-invoice-supreme.php:92
+#: templates/emails/customer-note-deluxe.php:63
+#: templates/emails/customer-note-supreme.php:63
+#: templates/emails/customer-processing-order-deluxe.php:63
+#: templates/emails/customer-processing-order-supreme.php:62
+msgid "Quantity"
+msgstr "Quantidade"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:62
+#: templates/emails/admin-new-order-supreme.php:62
+#: templates/emails/customer-completed-order-deluxe.php:64
+#: templates/emails/customer-completed-order-supreme.php:64
+#: templates/emails/customer-invoice-deluxe.php:93
+#: templates/emails/customer-invoice-supreme.php:93
+#: templates/emails/customer-note-deluxe.php:64
+#: templates/emails/customer-note-supreme.php:64
+#: templates/emails/customer-processing-order-deluxe.php:64
+#: templates/emails/customer-processing-order-supreme.php:63
+msgid "Price"
+msgstr "Preço"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:104
+#: templates/emails/admin-new-order-supreme.php:104
+#: templates/emails/customer-completed-order-deluxe.php:102
+#: templates/emails/customer-completed-order-supreme.php:102
+#: templates/emails/customer-note-deluxe.php:102
+#: templates/emails/customer-note-supreme.php:102
+#: templates/emails/customer-processing-order-deluxe.php:106
+#: templates/emails/customer-processing-order-supreme.php:105
+msgid "Customer details"
+msgstr "Detalhes do Cliente"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:107
+#: templates/emails/admin-new-order-supreme.php:107
+#: templates/emails/customer-completed-order-deluxe.php:105
+#: templates/emails/customer-completed-order-supreme.php:105
+#: templates/emails/customer-note-deluxe.php:105
+#: templates/emails/customer-note-supreme.php:105
+#: templates/emails/customer-processing-order-deluxe.php:109
+#: templates/emails/customer-processing-order-supreme.php:108
+msgid "Email:"
+msgstr "E-mail:"
+
+# @ email-control
+#: templates/emails/admin-new-order-deluxe.php:110
+#: templates/emails/admin-new-order-supreme.php:110
+#: templates/emails/customer-completed-order-deluxe.php:108
+#: templates/emails/customer-completed-order-supreme.php:108
+#: templates/emails/customer-note-deluxe.php:108
+#: templates/emails/customer-note-supreme.php:108
+#: templates/emails/customer-processing-order-deluxe.php:112
+#: templates/emails/customer-processing-order-supreme.php:111
+msgid "Tel:"
+msgstr ""
+
+# @ email-control
+#: templates/emails/customer-invoice-deluxe.php:32
+#: templates/emails/customer-invoice-supreme.php:32
+msgid "Payment Pending"
+msgstr ""
+
+# @ email-control
+#: templates/emails/customer-invoice-deluxe.php:49
+#: templates/emails/customer-invoice-supreme.php:49
+msgid "Payment Complete"
+msgstr ""
+
+# @ email-control
+#: templates/emails/customer-new-account-deluxe.php:32
+#: templates/emails/customer-new-account-supreme.php:32
+msgid "If admin sets auto generated passwords"
+msgstr ""
+
+# @ email-control
+#: templates/emails/email-addresses-deluxe.php:20
+#: templates/emails/email-addresses-supreme.php:20
+msgid "Billing address"
+msgstr "Endereço de Cobrança"
+
+# @ email-control
+#: templates/emails/email-addresses-deluxe.php:28
+#: templates/emails/email-addresses-supreme.php:28
+msgid "Shipping address"
+msgstr "Endereço de Entrega"
+
+# @ email-control
+#: templates/emails/email-order-items-deluxe.php:28
+#: templates/emails/email-order-items-supreme.php:28
+msgid "Product Image"
+msgstr ""
+
+# @ email-control
+#: templates/emails/email-order-items-deluxe.php:49
+#: templates/emails/email-order-items-supreme.php:49
+#, php-format
+msgid "Download %d"
+msgstr ""
+
+# @ email-control
+#: templates/emails/email-order-items-deluxe.php:51
+#: templates/emails/email-order-items-supreme.php:51
+msgid "Download"
+msgstr ""
+
+# @ email-control
+#: templates/emails/email-order-items-deluxe.php:108
+#: templates/emails/email-order-items-supreme.php:108
+msgid "This product is no longer available"
+msgstr ""
+
+# @ email-control
+#: templates/emails/email-order-items-deluxe.php:154
+#: templates/emails/email-order-items-supreme.php:154
+#, php-format
+msgid "Download %d:"
+msgstr ""
+
+# @ email-control
+#: templates/emails/email-order-items-deluxe.php:156
+#: templates/emails/email-order-items-supreme.php:156
+msgid "Download:"
+msgstr ""
+
+# @ email-control
+#. translators: plugin header field 'Name'
+#: ec-email-control.php:0
+msgid "WooCommerce Email Customizer"
+msgstr ""
+
+# @ email-control
+#. translators: plugin header field 'PluginURI'
+#: ec-email-control.php:0
+msgid "http://codecanyon.net/item/email-customizer-for-woocommerce/8654473"
+msgstr ""
+
+# @ email-control
+#. translators: plugin header field 'Description'
+#: ec-email-control.php:0
+msgid "WooCommerce Email Customizer plugin allows you to fully customize the styling, colors, logo and text in the emails sent from your WooCommerce store."
+msgstr ""
+
+# @ email-control
+#. translators: plugin header field 'Version'
+#: ec-email-control.php:0
+msgid "2.18"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:536 ec-email-control.php:661 ec-email-control.php:662
+#: pages/ec-admin-page.php:98
+msgid "Email Customizer"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:1034
+#, php-format
+msgid "%sEmail Customizer for WooCommerce is inactive%s This version of Email Customizer requires WooCommerce %s or newer. For more information about our WooCommerce version support %sclick here%s."
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:261 ec-template-supreme.php:261
+msgid "Custom CSS"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:289 ec-template-supreme.php:289
+msgid ""
+"You have received an order from [ec_firstname] [ec_lastname].\n"
+"\n"
+"Their order is as follows: [ec_order]"
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:314 ec-template-supreme.php:314
+msgid "Your order [ec_order] has been received and is now being processed."
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:339 ec-template-supreme.php:339
+msgid ""
+"Your order [ec_order] at [ec_site_name] has been completed.\n"
+"\n"
+"We're just letting you know. No further action is required."
+msgstr ""
+
+# @ email-control
+#: ec-template-deluxe.php:353 ec-template-deluxe.php:375
+#: ec-template-supreme.php:353 ec-template-supreme.php:375
+msgid "Invoice for order [ec_order]"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:195
+msgid "Customize"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:201
+msgid "Get Customized Templates"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:225
+msgid "Select one..."
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:232
+msgid "There are no orders to preview..."
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:251
+#, php-format
+msgid "...Showing the most recent %u orders"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:386
+msgid "Allowed Shortcodes:"
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:391
+msgid "[ec_firstname] [ec_lastname] [ec_order] [ec_pay_link] [ec_customer_note] [ec_user_login] [ec_account_link] [ec_user_password] [ec_reset_password_link] [ec_login_link] [ec_site_link] [ec_site_name]"
+msgstr ""
+
+# @ email-control
+#: ec-email-control.php:1017
+#, php-format
+msgid "%sEmail Customizer for WooCommerce needs WooCommerce%s %sWooCommerce%s must be active for Email Customizer to work. Please install & activate WooCommerce."
+msgstr ""
+
+# @ email-control
+#: pages/ec-admin-page.php:151
+msgid "WooCommerce (not editable)"
+msgstr ""

@@ -1,0 +1,16 @@
+.fancy-product:not(.fpd-customize-button-visible) .product-gallery{
+	width:100%;
+	padding:0 15px;
+	margin:0;
+}
+.fancy-product:not(.fpd-customize-button-visible) .fpd-container{
+	width:100%!important;
+}
+
+.fancy-product:not(.fpd-customize-button-visible) .callout{
+	top:150px!important;
+}
+
+.fancy-product:not(.fpd-customize-button-visible) .product-info{
+	min-width: 83.33333%;
+}
