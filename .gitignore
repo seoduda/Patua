@@ -58,3 +58,13 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Backup do site
+# =========================
+pd.zip
+patuaMigra.zip
+
+# Docs Com senha
+# =========================
+
+dados-Patua.xlsx
