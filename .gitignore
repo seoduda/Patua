@@ -68,3 +68,8 @@ patuaMigra.zip
 # =========================
 
 dados-Patua.xlsx
+
+
+# Arquivos Multimídia
+# =========================
+*.mp3
