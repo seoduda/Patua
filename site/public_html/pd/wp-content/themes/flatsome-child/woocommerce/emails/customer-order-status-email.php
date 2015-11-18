@@ -30,13 +30,19 @@
  */
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 
+<?php
+
+?>
+
 <?php do_action( 'woocommerce_email_header', $email_heading ); ?>
 
 <?php if ( $email_body_text ) : ?>
-<div id="body_text"><?php echo $email_body_text; ?></div>
-<?php endif; ?>
+	<div class="top_heading" style="font-family: Arial, sans-serif; font-size: 22px; text-align: left; font-weight: bold;">
+		<p style="margin: .6em 0;">Salve, salve <?php echo do_shortcode('[ec_firstname]'); ?>!</p>
+	</div>
 
-<p><?php printf( __( 'You have received an order from %s. The order is as follows:', 'woocommerce' ), $order->get_formatted_billing_full_name() ); ?></p>
+	<div id="body_text"><?php echo $email_body_text; ?></div>
+<?php endif; ?>
 
 
 <?php do_action( 'woocommerce_email_before_order_table', $order, $sent_to_admin, $plain_text ); ?>
@@ -71,7 +77,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 </table>
 
 <?php
-if ($order->get_status() == 'on-hold')
+//if ($order->get_status() == 'on-hold')
 	do_action( 'woocommerce_email_after_order_table', $order, $sent_to_admin, $plain_text );
 ?>
 

@@ -68,7 +68,9 @@ patuaMigra.zip
 # =========================
 
 dados-Patua.xlsx
-
+~$dados-Patua.xlsx
+fonte1_blockd.txt
+fonte2_unblockd.txt
 
 # Arquivos Multimídia
 # =========================
