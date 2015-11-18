@@ -36,6 +36,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 <div id="body_text"><?php echo $email_body_text; ?></div>
 <?php endif; ?>
 
+<p><?php printf( __( 'You have received an order from %s. The order is as follows:', 'woocommerce' ), $order->get_formatted_billing_full_name() ); ?></p>
+
+
 <?php do_action( 'woocommerce_email_before_order_table', $order, $sent_to_admin, $plain_text ); ?>
 
 <h2><?php echo __( 'Detalhes do pedido:', 'woocommerce-order-status-manager' ) . ' ' . $order->get_order_number(); ?></h2>
@@ -67,7 +70,10 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
 	</tfoot>
 </table>
 
-<?php do_action( 'woocommerce_email_after_order_table', $order, $sent_to_admin, $plain_text ); ?>
+<?php
+if ($order->get_status() == 'on-hold')
+	do_action( 'woocommerce_email_after_order_table', $order, $sent_to_admin, $plain_text );
+?>
 
 <?php do_action( 'woocommerce_email_order_meta', $order, $sent_to_admin, $plain_text ); ?>
 

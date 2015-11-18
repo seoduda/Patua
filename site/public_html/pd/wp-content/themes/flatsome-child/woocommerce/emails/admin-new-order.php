@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <p><?php printf( __( 'You have received an order from %s. The order is as follows:', 'woocommerce' ), $order->get_formatted_billing_full_name() ); ?></p>
 
-<?php do_action( 'woocommerce_email_before_order_table', $order, true, false ); ?>
+<?php do_action( 'woocommerce_email_before_order_table', $order, $sent_to_admin, false ); ?>
 
 <h2><a class="link" href="<?php echo admin_url( 'post.php?post=' . $order->id . '&action=edit' ); ?>"><?php printf( __( 'Order #%s', 'woocommerce'), $order->get_order_number() ); ?></a> (<?php printf( '<time datetime="%s">%s</time>', date_i18n( 'c', strtotime( $order->order_date ) ), date_i18n( wc_date_format(), strtotime( $order->order_date ) ) ); ?>)</h2>
 
